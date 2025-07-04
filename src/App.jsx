@@ -32,7 +32,7 @@ function App() {
         <h3>
           Lottery Ticket Number <br />
         </h3>
-        <h1> {randomNumber} </h1>
+        <h1 className="rNumber"> {randomNumber} </h1>
         <br />
         <hr /> <button onClick={getNewTicket}>Get New Ticket!</button>
         <br />
